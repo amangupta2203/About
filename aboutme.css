@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+body {
+    height: 100%;
+    background: #F0BCD4;
+    overflow: hidden;
+    animation: mymove 7s infinite;
+} 
+@keyframes mymove {
+    0% {background-color: #F0BCD4;}
+    30% {background-color: #FF0076;}
+    60%{background-color: #DC8FEF;}
+    90%{background-color: #F079A4;}
+}
+h2{
+    color: #ffffff;
+    font-family: 'Sen', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    bottom: 560px;
+}
+.but2 {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-family: 'Sen', sans-serif;
+    font-size: 24px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 15px 25px;
+    transition: 0.8s;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    bottom: 635px;
+}
+.but2:hover {
+    color: blue;
+}
+.flex-container {
+    display: flex;
+    position: relative;
+    top: 300px;
+    height: 300px;
+    align-items: flex-end;
+    background-color: none;
+    justify-content: space-around;
+    
+}
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.but3{
+    background: none;
+    border: none;
+    color: #ffffff;
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    font-weight: bold;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;  
+}
+.but3:hover {
+    color: #ffffff;
+    text-decoration:underline;
+    
+}
+.links a{
+    display: inline;
+    position: relative;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight:900;
+    font-size:xx-large;
+    word-spacing: 10px;;
+    font-family: 'Sen', sans-serif;
+    top: 100px;
+    left: 100px;
+}
+.links a:hover{
+    color:#ff00dd ;
+}
+.rgtnav a {
+    display: inline;
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+}
+  
+.rgtnav a:hover {
+    left: 0;
+}
+
+#home{
+    top: 80px;
+    background-color: #ffffff;
+}
+  
+#about {
+
+    top: 140px;
+    background-color: #fff;
+}
+
+#projects {
+
+    top: 200px;
+    background-color: #fff;
+}
+  
+#contact {
+
+    top: 200px;
+  
+  background-color: #fff;
+}
+img {
+    display: block;
+    position: absolute;
+    height: 160px;
+    width: 208px;
+    top: 50px;
+    right: 50px;
+}
+@media all and (max-width: 900px) and (min-width:350px) {
+    body{
+        overflow: scroll;
+    }
+    .flex-container {
+        display: flex;
+        position: relative;
+        top: 300px;
+        height: 950px;
+        align-items: flex-end;
+        background-color: none;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    h2{
+        color: #ffffff;
+        font-family: 'Sen', sans-serif;
+        font-size: 10vw;
+        text-align: center;
+        position: absolute;
+        left: 5px;
+        bottom: 400px;
+    }
+    img {
+        position: relative;
+        height: 80px;
+        width: 208px;
+        top: 10px;
+        left: 180px;
+    }
+    .links a{
+        display: inline;
+        position: absolute;
+        color: #000000;
+        letter-spacing: 1px;
+        font-weight:700;
+        font-size:x-large;
+        word-spacing: 10px;;
+        font-family: 'Sen', sans-serif;
+        left: 0px;
+    }
+    #home{
+        top: 20px;
+        background-color: #ffffff;
+    }
+      
+    #about {
+    
+        top: 90px;
+        background-color: #fff;
+    }
+    
+    #projects {
+    
+        top: 160px;
+        background-color: #fff;
+    }
+    .rgtnav a {
+        display: inline;
+        position: absolute;
+        padding: 15px;
+        width: 70px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #000;
+        border-radius: 0 5px 5px 0;
+        overflow: hidden;
+    }
+    .but4{
+        background: none;
+        border: none;
+        color: #000;
+        position: absolute;
+        font-weight: bold;
+        font-family: 'Sen', sans-serif;
+        font-size: 20px;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+}
+
+
+
